@@ -20,7 +20,7 @@ bot.on('ready', () => {
 // create an event listener for messages
 bot.on('message', message => {
   // if the message is "ping",
-  if (message.content === 'ping') {
+  if (message.content === 'jfalj;dkfjlaksdjf;lkasjdf') {
     // send "pong" to the same channel.
     message.channel.sendMessage('pong');
   }
